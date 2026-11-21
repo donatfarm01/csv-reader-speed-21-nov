@@ -99,9 +99,9 @@ node cli/makefun.mjs check --kit . \
   --repo ~/workspace/makefun/csv-reader-speed-01-run-20261121/repo --worktree
 ```
 
-- pass: competition_open, snapshot (4 files, 14,107 bytes), license_osi
+- pass: competition_open, snapshot (5 files, 19,180 bytes), license_osi
   (SPDX-License-Identifier: MIT), entrypoint (main.ts → node22),
-  entry_size (14,107 bytes < 1,048,576 cap)
+  entry_size (19,180 bytes < 1,048,576 cap)
 - 0 failed; the rest are the site's at submission (repo_public, repo_owner,
   repo_created_after_open, commit_in_repo, duplicate_snapshot) or
   transcript-gate skips (this bounty does not require transcripts; the
@@ -109,7 +109,7 @@ node cli/makefun.mjs check --kit . \
 
 ## Repo
 
-- Total size: 5 files, ~15 KB (cap 1,048,576 bytes).
+- Total size: 5 files, 19,180 bytes (cap 1,048,576 bytes).
 - License: MIT, `SPDX-License-Identifier: MIT` first line.
 - README: make.fun template with all three live badges
   (donatfarm01 / csv-reader-speed-21-nov), referral code donatfarm01.
